@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+.work-sans{
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+/* shared file */
+.btn-primary{
+    border: 1px solid green;
+    font-size: 1.25rem;
+    font-weight: 600;
+    padding: 20px 25px;
+    border-radius: 5px;
+    color: #F15B22;
+    background: white;
+}
+
+
+.primary-color{
+    color: #151414;
+}
+
+
+.secondary-color{
+    color: #443434;
+}
+
+
+.tertiary-color{
+    color: #737272;
+}
+
+/* banner-section */
+.banner{
+    background-image: url(../images/banner/banner1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    text-align: right;
+    padding: 216px 230px 166px 0;
+    display: flex;
+    justify-content: flex-end;
+
+}
+
+.banner-content{
+    /* display: flex;
+    flex-direction: column;
+    justify-content: right; */
+}
+
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700;
+    max-width: 512px;
+    
+}
+
+.banner-info{
+    max-width: 494px;
+    margin: 24px 0 32px;
+}
