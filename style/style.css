@@ -174,3 +174,47 @@
     font-weight: 500;
     margin-top: 16px;
 }
+
+
+/* mindset-section */
+.positive-mindset{
+    border: 1px solid green;
+    padding: 60px 64px;
+    border-radius: 8px;
+    background-image: url(../images/watch.png);
+    /* background:linear-gradient(to right, #f15b22fa, #f15b2200); */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+
+.positive-mindset::after{
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    background:linear-gradient(to right, #f15b22fa, #f15b2200);
+    z-index: 1;
+}
+
+
+.positive-mind-title{
+    max-width: 459px;
+    margin-bottom: 24px;
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: white;
+    z-index: 2;
+    position: relative;
+    
+}
+
+
+#mind-sec-btn{
+    position: relative;
+    z-index: 2;
+}
+
