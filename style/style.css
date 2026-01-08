@@ -40,6 +40,18 @@
     color: #737272;
 }
 
+
+.section-max-width{
+    max-width: 1140px;
+    margin: 130px auto 0;
+}
+
+
+.section-title{
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+
 /* banner-section */
 .banner{
     background-image: url(../images/banner/banner1.png);
@@ -54,11 +66,11 @@
 
 }
 
-.banner-content{
-    /* display: flex;
+/* .banner-content{
+    display: flex;
     flex-direction: column;
-    justify-content: right; */
-}
+    justify-content: right;
+} */
 
 .banner-title{
     font-size: 4rem;
@@ -67,7 +79,98 @@
     
 }
 
+
 .banner-info{
     max-width: 494px;
     margin: 24px 0 32px;
+}
+
+
+/* failure section */
+.failures{
+    margin-top: 140px ;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 87px;
+}
+
+
+.img-container{
+    position: relative;
+}
+
+
+.img-container>img{
+   width: 100%;
+    height: 100%;
+    position: relative;
+    z-index:2
+}
+
+
+.img-background{
+    width: 527px;
+    height: 527px;
+    border-radius: 50%;
+    background-color: #f15b2233;
+    position: absolute;
+    bottom: 5px;
+    left: 24px;
+    z-index: 1;
+    
+}
+
+
+.failure-content-title{
+    max-width:288px;
+}
+
+
+.failure-info{
+    max-width: 416px;
+    margin: 24px 0 16px;
+}
+
+
+.failure-list>li{
+    list-style: none;
+    margin-top: 8px;
+}
+
+.failure-list>li::before{
+    content:"\2714";
+    margin-right: 10px;
+    color: green;
+    font-size: 16px;
+}
+
+/* my plan section */
+.my-plan-title{
+    text-align: center;
+}
+
+
+.plan-container{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.plan{
+    text-align: center;
+}
+
+
+.plan-title{
+    font-size: 1.8rem;
+    font-weight: 700;
+    margin-top: 18px;
+}
+
+.plan>p{
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-top: 16px;
 }
