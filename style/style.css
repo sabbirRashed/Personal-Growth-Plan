@@ -1,7 +1,6 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     border: 0;
@@ -9,14 +8,14 @@
 
 }
 
-.work-sans{
-  font-family: "Work Sans", sans-serif;
-  font-optical-sizing: auto;
-  
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+
 }
 
 /* shared file */
-.btn-primary{
+.btn-primary {
     font-size: 1.25rem;
     font-weight: 600;
     padding: 20px 36px;
@@ -26,35 +25,35 @@
 
 }
 
-.primary-color{
+.primary-color {
     color: #151414;
 
 }
 
-.secondary-color{
+.secondary-color {
     color: #443434;
 
 }
 
-.tertiary-color{
+.tertiary-color {
     color: #737272;
 
 }
 
-.section-max-width{
+.section-max-width {
     max-width: 1140px;
     margin: 130px auto 0;
 
 }
 
-.section-title{
+.section-title {
     font-size: 2.5rem;
     font-weight: 700;
 
 }
 
 /* banner-section */
-.banner{
+.banner {
     background-image: url(../images/banner/banner1.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -67,20 +66,27 @@
 
 }
 
-.banner-title{
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+
+}
+
+.banner-title {
     font-size: 4rem;
     font-weight: 700;
     max-width: 512px;
-    
+
 }
 
-.banner-info{
+.banner-info {
     max-width: 494px;
     margin: 24px 0 32px;
 
 }
 
-#btn-banner{
+#btn-banner {
     background-color: #F15B22;
     color: white;
 
@@ -88,29 +94,28 @@
 
 
 /* failure section */
-.failures{
-    margin-top: 140px ;
+.failures {
+    margin-top: 140px;
     display: flex;
     justify-content: flex-start;
-    align-items: center;
+    /* align-items: center; */
     gap: 87px;
 
 }
 
-.img-container{
+.img-container {
     position: relative;
 
 }
 
-.img-container>img{
-   width: 100%;
+.img-container>img {
+    width: 100%;
     height: 100%;
     position: relative;
-    z-index:2
-
+    z-index: 2
 }
 
-.img-background{
+.img-background {
     width: 527px;
     height: 527px;
     border-radius: 50%;
@@ -119,28 +124,29 @@
     bottom: 5px;
     left: 24px;
     z-index: 1;
-    
-}
-
-.failure-content-title{
-    max-width:288px;
 
 }
 
-.failure-info{
+.failure-content-title {
+    max-width: 288px;
+    margin-top: 230px;
+
+}
+
+.failure-info {
     max-width: 416px;
     margin: 24px 0 16px;
 
 }
 
-.failure-list>li{
+.failure-list>li {
     list-style: none;
     margin-top: 8px;
 
 }
 
-.failure-list>li::before{
-    content:"\2714";
+.failure-list>li::before {
+    content: "\2714";
     margin-right: 10px;
     color: green;
     font-size: 16px;
@@ -148,31 +154,31 @@
 }
 
 /* my plan section */
-.my-plan-title{
+.my-plan-title {
     text-align: center;
 
 }
 
-.plan-container{
+.plan-container {
     margin-top: 60px;
     display: flex;
     justify-content: space-between;
 
 }
 
-.plan{
+.plan {
     text-align: center;
 
 }
 
-.plan-title{
+.plan-title {
     font-size: 1.8rem;
     font-weight: 700;
     margin-top: 18px;
 
 }
 
-.plan>p{
+.plan>p {
     font-size: 1.25rem;
     font-weight: 500;
     margin-top: 16px;
@@ -180,7 +186,7 @@
 }
 
 /* mindset-section */
-.positive-mindset{
+.positive-mindset {
     border: 1px solid green;
     padding: 60px 64px;
     border-radius: 8px;
@@ -193,17 +199,17 @@
 
 }
 
-.positive-mindset::after{
+.positive-mindset::after {
     content: "";
     position: absolute;
     inset: 0;
     border-radius: 8px;
-    background:linear-gradient(to right, #f15b22fa, #f15b2200);
+    background: linear-gradient(to right, #f15b22fa, #f15b2200);
     z-index: 1;
 
 }
 
-.positive-mind-title{
+.positive-mind-title {
     max-width: 459px;
     margin-bottom: 24px;
     font-size: 2.25rem;
@@ -211,46 +217,46 @@
     color: white;
     z-index: 2;
     position: relative;
-    
+
 }
 
-#mind-sec-btn{
+#mind-sec-btn {
     position: relative;
     z-index: 2;
 }
 
 /* footer section */
-footer{
+footer {
     width: 100%;
     background-color: #151414;
     margin-top: 130px;
     padding: 130px 230px;
     display: flex;
     justify-content: space-between;
-    
+
 }
 
-.footer-title{
+.footer-title {
     font-size: 2.8rem;
     font-weight: 700;
     color: #f8f8f8;
 
 }
 
-.footer-info{
+.footer-info {
     max-width: 485px;
     margin-top: 16px;
     color: white;
 
 }
 
-.address{
+.address {
     margin-top: 24px;
     color: white;
 
 }
 
-.social-midea{
+.social-midea {
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -259,19 +265,19 @@ footer{
 
 }
 
-.subscribe-container>h3{
+.subscribe-container>h3 {
     font-size: 1.25rem;
     font-weight: 600;
     color: white;
 
 }
 
-form{
+form {
     margin-top: 31px;
 
 }
 
-input[type="email"]{
+input[type="email"] {
     font-size: 1.125rem;
     background-color: #151414;
     color: #f8f8f8;
@@ -279,10 +285,5 @@ input[type="email"]{
     margin-bottom: 16px;
     border: 1px solid #ffffff;
     border-radius: 8px;
-    
+
 }
-
-
-
-
-
