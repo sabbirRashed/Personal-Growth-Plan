@@ -52,6 +52,36 @@
 
 }
 
+/* navber section */
+.navbar{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #F15B22;
+}
+
+.menue-bar{
+    font-weight: 500;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 25px;
+}
+
+.menue-bar>li>a{
+    text-decoration: none;
+    color:#443434;
+}
+
 /* banner-section */
 .banner {
     background-image: url(../images/banner/banner1.png);
@@ -61,8 +91,6 @@
     width: 100%;
     text-align: right;
     padding: 216px 230px 166px 0;
-    display: flex;
-    justify-content: flex-end;
 
 }
 
@@ -187,7 +215,6 @@
 
 /* mindset-section */
 .positive-mindset {
-    border: 1px solid green;
     padding: 60px 64px;
     border-radius: 8px;
     background-image: url(../images/watch.png);
