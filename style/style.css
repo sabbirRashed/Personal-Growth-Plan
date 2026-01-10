@@ -56,7 +56,7 @@
 .navbar{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 10px 10px;
+    padding: 15px 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -247,7 +247,7 @@
 
 }
 
-#mind-sec-btn {
+.z-index-2{
     position: relative;
     z-index: 2;
 }

@@ -12,7 +12,7 @@
         .banner{
             background-image: url(./images/banner/banner3.png);
             background-position: center;
-            background-size: cover;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
         }
 
@@ -24,13 +24,29 @@
             background: linear-gradient(to right, #005fac, #005fac00);
             z-index: 1;
         }
+
+        .color-white{
+            color: #FFFFFF;
+        }
+
+        .color-blue{
+            color: #005fac;
+        }
+
+        #background-blue{
+            background-color: #005fac;
+        }
+
+        .logo-color{
+            color: #3b96e0;
+        }
     </style>
 </head>
 
 <body class="work-sans">
     <header>
         <nav class="navbar">
-            <h2 class="logo">Personal Growth Plan</h2>
+            <h2 class="logo logo-color">Personal Growth Plan</h2>
 
             <ul class="menue-bar">
                 <li><a href="./index.html">Home</a></li>
@@ -41,12 +57,12 @@
         </nav>
 
         <div class="banner">
-            <div class="banner-content primary-color">
-                <h1 class="banner-title">All Thinks Are Possible If You believe</h1>
-                <p class="banner-info secondary-color">There are many variations of passages of Lorem Ipsum available,
+            <div class="banner-content">
+                <h1 class="banner-title color-white">All Thinks Are Possible If You believe</h1>
+                <p class="banner-info color-white">There are many variations of passages of Lorem Ipsum available,
                     but the majority
                     have suffered alteration in some form, by injected humour, or randomised words</p>
-                <button id="btn-banner" class="btn-primary">Contact Us</button>
+                <button class="btn-primary color-blue">Contact Us</button>
             </div>
         </div>
     </header>
@@ -113,7 +129,7 @@
 
         <section class="positive-mindset section-max-width">
             <h2 class="positive-mind-title">Always keep a positive mindset</h2>
-            <button id="mind-sec-btn" class="btn-primary">Call Now</button>
+            <button id="color-blue" class="btn-primary color-blue z-index-2">Call Now</button>
         </section>
     </main>
 
@@ -140,7 +156,7 @@
 
             <form>
                 <input type="email" placeholder="inter your email"><br>
-                <button class="btn-primary">Subcribe</button>
+                <button id="background-blue" class="btn-primary color-white">Subcribe</button>
             </form>
         </div>
     </footer>
